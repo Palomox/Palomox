@@ -7,9 +7,11 @@ My latest project is UHCLebrel, a plugin made for hosting UHC Competitions in Mi
 
 | **UHC Lebrel**|
 |---|
-| Repository: https://github.com/Palomox/uhclebrel |
-| Download builds from: https://ci.palomox.ga/job/UHCLebrel/ |
-|![](https://i.imgur.com/wqjR6HR.png)
+| Repository: 
+[![Repository](https://github-readme-stats.vercel.app/api/pin/?username=palomox&repo=uhclebrel&theme=prussian)](https://github.com/palomox/uhclebrel) |
+| Download builds from: 
+https://ci.palomox.ga/job/UHCLebrel/ |
+|<img src="https://i.imgur.com/wqjR6HR.png" width="400" >
 
-# GitHub stats:
+# My GitHub stats:
 [![Palomox's github stats](https://github-readme-stats.vercel.app/api?username=palomox&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
