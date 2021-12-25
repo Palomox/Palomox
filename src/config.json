@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {
+      "name": "CutePigeons",
+      "description": "An application about pigeons. Powered by a Spring Boot backend that serves images stored on a postgres database with a Vue 3 frontend. All the authorization is made via auth0 the logging in the frontend and the validaiton in the backend.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Homing_pigeon.jpg",
+      "picSide": "right",
+      "link": "https://cutepigeons.palomox.ga"
+    },
+    {
+      "name": "Portfolio",
+      "description": "The web page you're looking at at the moment! It's a simple static page made in Vue3 using Vuetify",
+      "image": "",
+      "picSide": "left",
+      "link": "https://palomox.ga"
+    }]
+}

@@ -1,11 +1,13 @@
 <template>
-  <nav-bar id="nav" class="nav" :pages="routes"></nav-bar>
-  <div ref="view">
-    <router-view/>
-  </div>
-  <footer>
-    <page-footer id="footer" class="footer"></page-footer>
-  </footer>
+  <v-app>
+    <v-main>
+      <nav-bar id="nav" class="nav" :pages="routes"></nav-bar>
+      <div ref="view" class="main">
+          <router-view/>
+      </div>
+      <page-footer id="footer" class="footer"></page-footer>
+    </v-main>
+  </v-app>
 </template>
 <script lang="ts">
 import {Options, Vue} from "vue-class-component";
@@ -39,17 +41,16 @@ export default class App extends Vue {
   ]
   viewHeight: number | undefined = undefined
 
-  stringifyHeight(){
-    return "min-height: "+this.viewHeight+"px;"
+  stringifyHeight() {
+    return "min-height: " + this.viewHeight + "px;"
   }
 
   mounted() {
-    const view = (this.$refs.view as HTMLElement).style.minHeight = this.setHeight()+"px"
-    this.setHeight()
+    //const view = (this.$refs.view as HTMLElement).style.minHeight = this.setHeight() + "px"
   }
 
   render() {
-    this.setHeight()
+    //this.setHeight()
   }
 
   setHeight() {
@@ -94,4 +95,5 @@ html::-webkit-scrollbar-thumb {
 .nav {
   @apply sticky top-0;
 }
+
 </style>

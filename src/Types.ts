@@ -8,11 +8,13 @@ export type ProjectType = {
     description: String
     image: String
     picSide: String
+    link: String
 }
 export class ProjectClass implements ProjectType{
     description!: String;
     image!: String;
     name!: String;
     picSide!: String;
+    link!: String;
 
 }

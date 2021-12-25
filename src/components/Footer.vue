@@ -1,4 +1,6 @@
 <template>
+  <v-app-bar position="bottom" height="80" color="grey-darken-4"  elevation="50">
+
   <div class="footer">
     <ul>
       <li>
@@ -12,6 +14,7 @@
       </li>
     </ul>
   </div>
+  </v-app-bar>
 </template>
 <script lang="ts">
 import {Options, Vue} from "vue-class-component";
@@ -31,7 +34,7 @@ export default class PageFooter extends Vue {
 @tailwind utilities;
 
 .footer {
-  @apply bg-gray-800 text-white w-full h-auto;
+  @apply text-white w-full h-auto;
 }
 
 .footer > ul {
