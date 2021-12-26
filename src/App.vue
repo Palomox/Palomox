@@ -77,7 +77,7 @@ export default class App extends Vue {
 
 html {
   scrollbar-width: thin;
-  scrollbar-track-color: #6e7179;
+  scrollbar-track-color: #2d2d2d;
 }
 
 router-view {
@@ -89,7 +89,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #6e7179;
+  background: #2d2d2d;
 }
 
 .nav {

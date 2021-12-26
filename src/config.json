@@ -2,16 +2,24 @@
   "projects": [
     {
       "name": "CutePigeons",
-      "description": "An application about pigeons. Powered by a Spring Boot backend that serves images stored on a postgres database with a Vue 3 frontend. All the authorization is made via auth0 the logging in the frontend and the validaiton in the backend.",
+      "description": "An application about pigeons. Powered by a Spring Boot backend, serves pigeon images stored on a postgres database throughout a Vue3 frontend. Being able to add pictures from the frontend thanks to the Ory Kratos based auth, it's a great way to look at cute pigeons!.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Homing_pigeon.jpg",
       "picSide": "right",
       "link": "https://cutepigeons.palomox.ga"
     },
     {
       "name": "Portfolio",
-      "description": "The web page you're looking at at the moment! It's a simple static page made in Vue3 using Vuetify",
+      "description": "The web page you're looking at at the moment! It's a simple static page built in Vue3 using Vuetify",
       "image": "",
       "picSide": "left",
       "link": "https://palomox.ga"
-    }]
+    },
+    {
+      "name": "GitHub Actions Pull",
+      "description": "A simple, lightweight express server to listen for GitHub Webhooks on action completions. I use it to do Continuous Integration on my web projects, such as this web page you're reading now!",
+      "image": "",
+      "picSide": "left",
+      "link": "https://github.com/Palomox/GHActionsPull"
+    }
+  ]
 }

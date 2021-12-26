@@ -1,13 +1,13 @@
 <template>
   <v-card text-color="white" color="grey-darken-3" height="60" width="160" class="" elevation="10">
     <v-col align="center">
-    <v-row align="center">
+    <v-row no-gutters="true" align="center">
       <v-card-title class="title">
         <font-awesome-icon :icon="icon"/>
         {{ title }}
       </v-card-title>
     </v-row>
-    <v-row align="" align-content="center">
+    <v-row no-gutters="true"  align="" align-content="center">
       <v-card-text :href="link" target="_blank" class="link">{{ content }}</v-card-text>
     </v-row>
     </v-col>
