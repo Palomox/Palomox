@@ -7,4 +7,8 @@ I've also worked on Minecraft server plugins. One of the projects I've been work
 My latest plugin is [LucyBlocks](https://github.com/Palomox/LucyBlocks), a simple plugin to play Lucky blocks on a paper server.
 
 # My GitHub stats:
-[![Palomox's github stats](https://github-readme-stats.vercel.app/api?username=palomox&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+  
+|[![Palomox's github stats](https://github-readme-stats.vercel.app/api?username=palomox&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)|[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=palomox&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)|
+|---|---|
+</p>
